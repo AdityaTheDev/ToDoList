@@ -5,7 +5,7 @@ const casechange=require(__dirname+'/namecasechange.js')
 const mongoose=require('mongoose')
 
 
-mongoose.connect("mongodb+srv://aditya26:aditya26@cluster0.byjngqy.mongodb.net/todolistDB",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://aditya:aditya@cluster0.ibleg6b.mongodb.net/todolistDB",{useNewUrlParser:true});
 
 const itemSchema={
     name:String

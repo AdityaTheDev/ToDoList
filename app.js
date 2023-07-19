@@ -4,7 +4,8 @@ const date=require(__dirname+'/date.js')
 const casechange=require(__dirname+'/namecasechange.js')
 const mongoose=require('mongoose')
 
-mongoose.connect("mongodb://0.0.0.0:27017/todolistDB",{useNewUrlParser:true});
+
+mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser:true});
 
 const itemSchema={
     name:String

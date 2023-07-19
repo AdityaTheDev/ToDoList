@@ -5,7 +5,7 @@ const casechange=require(__dirname+'/namecasechange.js')
 const mongoose=require('mongoose')
 
 
-mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser:true});
+mongoose.connect("mongodb://127.0.0.1:27017/todolistDB",{useNewUrlParser:true});
 
 const itemSchema={
     name:String
